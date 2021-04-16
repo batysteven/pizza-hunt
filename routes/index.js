@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const pizzaRoutes = require('./pizza-routes');
+const apiRoutes = require('./api');
 
-router.use('/pizzas', pizzaRoutes);
+router.use('/api', apiRoutes);
 
 module.exports = router;
